@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:latest
 
 COPY ./setup.sh /src/setup.sh
 RUN chmod 777 /src/setup.sh
